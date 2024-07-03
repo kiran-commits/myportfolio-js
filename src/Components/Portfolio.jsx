@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/work-desk.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with laptop";
 
 /**
  * Project list
@@ -31,27 +31,21 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Food Delivery Site",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+      "Created a user-friendly website for a fictional food delivery service, emphasizing intuitive navigation and modern design to enhance user interaction and accessibility.",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Malicious URL Detection",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a backend API utilizing machine learning to detect safe and malicious URLs, including deceptive shortened links. This solution enhances user security by effectively countering cyber threats posed by deceptive URLs, ensuring reliable protection in the digital realm.",
+    url: "#",
   },
   {
-    title: "My Resume Site",
+    title: "Intelligent Security Assessment Framework",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+    "Developed a comprehensive security framework integrating blockchain for secure assessment records and an API for automated assessments, fortifying organizational cybersecurity and operational efficiency.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];

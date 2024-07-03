@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/motion-background-1.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "cloud abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Welcome to the portfolio I am Kiran Ithape, passionate full-stack developer with expertise in HTML, CSS, JavaScript and Python . Explore my projects and see how I bring creative designs to life with clean, responsive code.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +32,11 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Responsive/Mobile Design",
+  "Cross-Browser Compatibility",
+  "Git/Version Control",
+  "Python",
+  "Backend Development",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "With a foundation in Python development and front-end design, I thrive on creating intuitive and secure digital solutions. My goal is to blend innovation with accessibility, ensuring technology serves everyone effectively.";
 
 const About = () => {
   return (
