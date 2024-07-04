@@ -20,7 +20,9 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/profile-image-2.jpg";
+import image from "<div styleName={} />
+<images />
+<profile-image-3></profile-image-3>.jpg";
 
 const imageAltText = "Young passionate female";
 
